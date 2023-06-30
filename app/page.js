@@ -83,7 +83,7 @@ function Home() {
     doc.line(68, 25, 147, 25);
     doc.text(`Total Amount: ${calculateTotalAmount()} €`, 145, offset + 26, {align: "right"});
     doc.line(65,offset + 27, 147,offset + 27);
-    doc.line(105,1,105,297);
+   
     doc.save("Travel expenses.pdf");
   }
 
