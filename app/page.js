@@ -105,7 +105,6 @@ function Home() {
       inputRef.current.style.width = `${Math.max(5, inputRef.current.value.length)}ch`;
     }
   };
-
   const handleNameInput = () => {
     handleInputResize();
     if (inputRef.current) {
@@ -134,6 +133,7 @@ function Home() {
         </div>
       }
       <h2 className="subline">Money spent for:</h2>
+      <h3 className="nametag">Name: </h3>
 
       <form onSubmit={handleSubmit}>
 

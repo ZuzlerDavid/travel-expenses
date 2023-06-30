@@ -56,6 +56,16 @@
     
 }
 
+.nametag {
+    position: absolute;
+    top: 1rem;
+    right:2rem;
+    flex-direction: column-reverse;
+    font-size: 16px;
+    font-family: monospace;
+    color: black;
+}
+
 .input-money {
     width:5rem;
     padding: 6px 15px;
