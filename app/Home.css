@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Bacasime Antique';
+    src: url(../fonts/Bacasime_Antique/BacasimeAntique-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper {
+    padding: 5px 20px;
+    background-color: #FFF0D7;
+    font-family: 'Bacasime Antique';
+}
+
+.wrapper fieldset {
+    margin: 20px 0;
+    background-color: #FFF0D7;
+    border:none;
+}
+
+
+
+.send-button {
+    background-color: #82B3FF;
+    color: black;
+    font-size: 25px;
+    font-weight:300;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-family: 'Bacasime Antique';
+}
+
+.headline {
+    font-family: 'Bacasime Antique';
+    font-weight:bold;
+    font-size:xx-large;
+    
+}
+
+.subline {
+    margin-top: 3rem;
+}
+
+.name-input {
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: dashed #82B3FF 2px;
+    flex-direction: column-reverse;
+    font-size: 16px;
+    font-family:monospace;
+    
+    
+}
+
+.input-money {
+    width:5rem;
+    padding: 6px 15px;
+    font-size: large;
+    background-color: transparent;
+    border-color: #F1BDD4;
+    border-radius:4px;
+    margin-bottom: 2rem;
+}
+
+
+
+.input-expense-type {
+    background-color: transparent;
+    padding: 6px 15px;
+    font-size: large;
+    border-color:#F1BDD4;
+    border-radius: 4px;
+}
